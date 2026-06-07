@@ -75,4 +75,4 @@ void loop() { // função principal do programa, onde o código é executado rep
   esp_task_wdt_reset(); // alimenta o watchdog timer novamente para garantir que ele não reinicie o sistema durante a próxima parte do código, onde um delay mais longo será introduzido para demonstrar o comportamento do watchdog timer quando o sistema não responde a tempo.
     Serial.println("WDT: LOOP Watchdog alimentado novamente."); // mensagem indicando que o watchdog timer foi alimentado novamente antes de entrar em um delay mais longo, o que é importante para evitar reinicializações indesejadas durante a demonstração do comportamento do watchdog timer.
     
-} // fim do script.
+} 
